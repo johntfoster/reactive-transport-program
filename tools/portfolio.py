@@ -37,7 +37,7 @@ def audit(program=ROOT, papers=None):
                 r=subprocess.run(['git','--no-optional-locks','-C',str(checkout),'rev-parse','HEAD'],text=True,capture_output=True)
                 record['head']=r.stdout.strip() if r.returncode==0 else None
         if m.get('id')!=name or m.get('repository')!=entry['repository']:record['errors'].append('registry/manifest identity mismatch')
-        for k in ['status','workflow','publication','verification','next_milestone']:
+        for k in ['default_branch','status','workflow','publication','verification','next_milestone']:
             record[k]=m.get(k)
             if k not in m:record['errors'].append('missing '+k)
         results.append(record)
@@ -55,6 +55,13 @@ def build(output):
         if site:links+=f' · <a href="{e(site,quote=True)}">Companion site</a>'
         release=pub.get('release',{}).get('url')
         if release:links+=f' · <a href="{e(release,quote=True)}">Release</a>'
+        branch=item['default_branch']
+        for label,path in [('Verification evidence',pub.get('evidence')),
+                           ('Citation',pub.get('citation')),
+                           ('License status',pub.get('license',{}).get('path'))]:
+            if path:
+                url=item['repository']+'/blob/'+branch+'/'+path
+                links+=f' · <a href="{e(url,quote=True)}">{e(label)}</a>'
         verification=''.join(f'<li>{e(k.replace("_"," "))}: {e(v)}</li>' for k,v in item['verification'].items())
         cards.append(f'<article><h2>{e(item["id"])}</h2><p>{links}</p><p>{e(item["status"])} · workflow {e(item["workflow"]["release"])}</p><p>{e(item["next_milestone"])}</p><ul>{verification}</ul></article>')
     document='''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Reactive transport research program</title><style>body{font:17px/1.6 system-ui;background:#f4f7fa;color:#1c3447;max-width:1120px;margin:3rem auto;padding:0 1.5rem}h1{font-size:2.6rem;line-height:1.15}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:1.2rem}article{padding:1.5rem;background:white;border:1px solid #cbd7df;border-radius:8px}h2{overflow-wrap:anywhere;font-size:1.3rem}a{color:#006b80}li{font-size:.9rem}</style></head><body><p>Independent papers · versioned workflows</p><h1>Reactive transport research program</h1><p>Four active publication repositories. This coordination layer reports recorded evidence; each paper retains scientific authority. Launch links and tooling checks do not establish scientific validation.</p><p><a href="https://github.com/johntfoster/reactive-transport-program">Program source and decisions</a> · <a href="status.json">Machine-readable status</a></p><div class="grid">'''+''.join(cards)+'''</div><h2>Archived work</h2><p>Inactive projects are preserved separately. Archival status reflects current work scope, not a scientific judgment.</p></body></html>'''
