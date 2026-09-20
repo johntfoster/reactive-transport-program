@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "projects": [
+    {
+      "id": "co2_sequestration_paper",
+      "status": "archival",
+      "directory": "archive/co2_sequestration_paper",
+      "reason": "Outside the four active paper repositories selected on 2026-09-19; preserved without scientific edits."
+    },
+    {
+      "id": "crystallization_pressure_paper",
+      "status": "archival",
+      "directory": "archive/crystallization_pressure_paper",
+      "reason": "Outside the four active paper repositories selected on 2026-09-19; preserved without scientific edits."
+    },
+    {
+      "id": "flow_reversal_paper",
+      "status": "archival",
+      "directory": "archive/flow_reversal_paper",
+      "reason": "Outside the four active paper repositories selected on 2026-09-19; preserved without scientific edits."
+    },
+    {
+      "id": "frost_heave_paper",
+      "status": "archival",
+      "directory": "archive/frost_heave_paper",
+      "reason": "Outside the four active paper repositories selected on 2026-09-19; preserved without scientific edits."
+    },
+    {
+      "id": "multicomponent_reactive_flow.worktrees",
+      "status": "archival",
+      "directory": "archive/multicomponent_reactive_flow.worktrees",
+      "reason": "Outside the four active paper repositories selected on 2026-09-19; preserved without scientific edits."
+    },
+    {
+      "id": "multicomponent_reactive_flow_charge",
+      "status": "archival",
+      "directory": "archive/multicomponent_reactive_flow_charge",
+      "reason": "Outside the four active paper repositories selected on 2026-09-19; preserved without scientific edits."
+    },
+    {
+      "id": "nonlinear_biot_extensions",
+      "status": "archival",
+      "directory": "archive/nonlinear_biot_extensions",
+      "reason": "Outside the four active paper repositories selected on 2026-09-19; preserved without scientific edits."
+    },
+    {
+      "id": "reacting_biot_ad_implementation",
+      "status": "archival",
+      "directory": "archive/reacting_biot_ad_implementation",
+      "reason": "Outside the four active paper repositories selected on 2026-09-19; preserved without scientific edits."
+    },
+    {
+      "id": "reacting_mixture_theory_paper",
+      "status": "archival",
+      "directory": "archive/reacting_mixture_theory_paper",
+      "reason": "Outside the four active paper repositories selected on 2026-09-19; preserved without scientific edits."
+    },
+    {
+      "id": "reactive_biot_coefficient",
+      "status": "archival",
+      "directory": "archive/reactive_biot_coefficient",
+      "reason": "Outside the four active paper repositories selected on 2026-09-19; preserved without scientific edits."
+    },
+    {
+      "id": "reactive_biot_coefficient_theory",
+      "status": "archival",
+      "directory": "archive/reactive_biot_coefficient_theory",
+      "reason": "Outside the four active paper repositories selected on 2026-09-19; preserved without scientific edits."
+    },
+    {
+      "id": "reactive_biot_coefficient_v2",
+      "status": "archival",
+      "directory": "archive/reactive_biot_coefficient_v2",
+      "reason": "Outside the four active paper repositories selected on 2026-09-19; preserved without scientific edits."
+    },
+    {
+      "id": "serpentinization_nature",
+      "status": "archival",
+      "directory": "archive/serpentinization_nature",
+      "reason": "Outside the four active paper repositories selected on 2026-09-19; preserved without scientific edits."
+    },
+    {
+      "id": "serpentinization_paper",
+      "status": "archival",
+      "directory": "archive/serpentinization_paper",
+      "reason": "Outside the four active paper repositories selected on 2026-09-19; preserved without scientific edits."
+    }
+  ]
+}

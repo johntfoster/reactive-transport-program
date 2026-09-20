@@ -1,0 +1,15 @@
+#!/bin/sh
+set -eu
+
+message_file=$1
+source_kind=${2:-}
+
+case "$source_kind" in
+  merge|squash|commit) exit 0 ;;
+esac
+
+if grep -Eq '^(##[[:space:]]+)?Summary[[:space:]]*$' "$message_file"; then
+  exit 0
+fi
+
+printf '\nSummary\n\nWhat changed & why\n\nAlternatives considered\n\nDead ends & backtracks\n\nOpen questions\n\nNext steps\n' >> "$message_file"

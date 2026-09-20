@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "phases": [
+    {
+      "id": "preserve",
+      "status": "completed",
+      "acceptance": "Archive inactive projects and verify protected content and dirty state."
+    },
+    {
+      "id": "program",
+      "status": "completed",
+      "acceptance": "Schema, four entries, decisions, backlog, read-only audit and dashboard tests."
+    },
+    {
+      "id": "shared-core",
+      "status": "completed",
+      "acceptance": "18 skills, schemas, hooks, reusable CI, synthetic forward tests and v0.2.0 release."
+    },
+    {
+      "id": "consumers",
+      "status": "in_progress",
+      "acceptance": "Advance each of four pins after its own checks; complete non-manuscript infrastructure."
+    },
+    {
+      "id": "publication",
+      "status": "in_progress",
+      "acceptance": "Verify sites, clean-clone environments, release checksums and honest status."
+    },
+    {
+      "id": "archive-scope",
+      "status": "completed",
+      "acceptance": "Keep other papers archival; no scientific edits or wider migrations."
+    }
+  ]
+}

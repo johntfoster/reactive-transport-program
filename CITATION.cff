@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "Cite the individual paper and its exact source revision for scientific results."
+title: "Reactive transport research program infrastructure"
+authors:
+  - family-names: Foster
+    given-names: John T.
+repository-code: "https://github.com/johntfoster/reactive-transport-program"

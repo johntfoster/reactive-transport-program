@@ -1,0 +1,228 @@
+{
+  "version": 1,
+  "harnesses": {
+    "claude": {
+      "skills_dir": ".claude/skills"
+    },
+    "codex": {
+      "skills_dir": ".codex/skills"
+    },
+    "copilot": {
+      "skills_dir": ".github/skills"
+    },
+    "opencode": {
+      "skills_dir": ".opencode/skills"
+    }
+  },
+  "routes": [
+    {
+      "any": [
+        "portfolio",
+        "chief of staff"
+      ],
+      "skills": [
+        "research-chief-of-staff",
+        "portfolio-status-publisher"
+      ],
+      "profiles": []
+    },
+    {
+      "any": [
+        "engineering review",
+        "editorial review"
+      ],
+      "skills": [
+        "foster-engineering-reviewer"
+      ],
+      "profiles": []
+    },
+    {
+      "any": [
+        "session ledger",
+        "session history"
+      ],
+      "skills": [
+        "session-ledger-builder"
+      ],
+      "profiles": []
+    },
+    {
+      "any": [
+        "bootstrap paper",
+        "new paper repository"
+      ],
+      "skills": [
+        "paper-repository-bootstrapper"
+      ],
+      "profiles": []
+    },
+    {
+      "any": [
+        "workflow pin",
+        "dependency update"
+      ],
+      "skills": [
+        "research-dependency-manager"
+      ],
+      "profiles": []
+    },
+    {
+      "any": [
+        "companion site"
+      ],
+      "skills": [
+        "companion-site-builder"
+      ],
+      "profiles": []
+    },
+    {
+      "any": [
+        "codespace",
+        "devcontainer"
+      ],
+      "skills": [
+        "codespace-reproducer"
+      ],
+      "profiles": []
+    },
+    {
+      "any": [
+        "submission release"
+      ],
+      "skills": [
+        "submission-release-orchestrator"
+      ],
+      "profiles": []
+    },
+    {
+      "any": [
+        "reviewer response"
+      ],
+      "skills": [
+        "review-response-manager"
+      ],
+      "profiles": []
+    },
+    {
+      "any": [
+        "verification matrix"
+      ],
+      "skills": [
+        "verification-matrix-orchestrator"
+      ],
+      "profiles": []
+    },
+    {
+      "any": [
+        "commit",
+        "checkpoint",
+        "record changes in git"
+      ],
+      "skills": [
+        "commit"
+      ],
+      "profiles": []
+    },
+    {
+      "any": [
+        "equation",
+        "notation",
+        "derivation",
+        "manuscript",
+        "latex"
+      ],
+      "skills": [
+        "latex-manuscript-request-router"
+      ],
+      "profiles": [
+        "manuscript"
+      ]
+    },
+    {
+      "any": [
+        "citation",
+        "bibliography",
+        "source paper",
+        "literature"
+      ],
+      "skills": [
+        "latex-citation-verifier",
+        "canonical-reference-finder"
+      ],
+      "profiles": [
+        "research"
+      ]
+    },
+    {
+      "any": [
+        "build moose",
+        "run moose",
+        "moose application",
+        "moose test",
+        "kernel",
+        "material"
+      ],
+      "skills": [
+        "setup-moose-conda",
+        "moose-residual-traceability-planner"
+      ],
+      "profiles": [
+        "moose"
+      ]
+    }
+  ],
+  "profiles": {
+    "manuscript": {
+      "description": "LaTeX manuscript interpretation, editing, equation integrity, notation, and narrative review.",
+      "triggers": [
+        "manuscript",
+        "latex",
+        "equation",
+        "notation",
+        "derivation",
+        "writing"
+      ],
+      "skills": [
+        "latex-*",
+        "manuscript-*",
+        "foster-technical-prose"
+      ],
+      "checks": [],
+      "provision": []
+    },
+    "research": {
+      "description": "Research-PDF ingestion, source evaluation, and citation verification.",
+      "triggers": [
+        "research pdf",
+        "source paper",
+        "citation",
+        "bibliography",
+        "literature"
+      ],
+      "skills": [
+        "latex-research-ingest",
+        "latex-citation-verifier",
+        "canonical-reference-finder"
+      ],
+      "checks": [],
+      "provision": []
+    },
+    "moose": {
+      "description": "MOOSE environment, build, test, and equation-to-residual traceability.",
+      "triggers": [
+        "moose",
+        "kernel",
+        "material",
+        "finite element",
+        "simulation",
+        "run tests"
+      ],
+      "skills": [
+        "moose-*",
+        "setup-moose-*"
+      ],
+      "checks": [],
+      "provision": []
+    }
+  }
+}

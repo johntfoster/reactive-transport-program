@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "anisotropic-biot-tensor",
+  "repository": "https://github.com/johntfoster/anisotropic-biot-tensor",
+  "default_branch": "main",
+  "status": "active",
+  "scientific_scope": "theory-only",
+  "authority": {
+    "instructions": "AGENTS.md",
+    "profile": "agent-profile.json",
+    "manuscript": "main.tex"
+  },
+  "workflow": {
+    "repository": "https://github.com/johntfoster/research-agent-workflows",
+    "path": ".agent/shared",
+    "revision": "bd82f7bed44ecb3ae7e2e6895a990ef456b8c23c",
+    "release": "v0.2.0"
+  },
+  "maintenance": {
+    "objective": "2026-09-19 research infrastructure migration",
+    "manuscript_edits": false,
+    "protected_paths": [
+      "*.tex",
+      "*.bib",
+      "*.sty",
+      "*.cls",
+      "*.bst",
+      "*.pdf",
+      "*.png",
+      "*.svg",
+      "*.eps",
+      "*.jpg",
+      "*.jpeg",
+      "paper/*",
+      "sections/*",
+      "figures/*",
+      "implementation_paper/*",
+      "submission/*",
+      "submissions/*"
+    ],
+    "local_freeze_config": "research.manuscriptFreeze"
+  },
+  "publication": {
+    "site": {
+      "url": "https://johntfoster.github.io/anisotropic-biot-tensor/",
+      "status": "deployment-pending"
+    },
+    "codespace": {
+      "url": "https://codespaces.new/johntfoster/anisotropic-biot-tensor",
+      "configuration": ".devcontainer/devcontainer.json",
+      "verification": "configuration-created; startup-not-yet-tested",
+      "image": "mcr.microsoft.com/devcontainers/python@sha256:ca7b20585cf65295cd0cef8ae8f02a008c1c85e83909d1e2af8d19706d3f34ee",
+      "scope": "infrastructure and source inspection; scientific toolchain setup is separate"
+    },
+    "citation": "CITATION.cff",
+    "license": {
+      "path": "LICENSES.md",
+      "status": "owner-decision-needed"
+    },
+    "release": {
+      "url": null,
+      "status": "no-published-release-found"
+    },
+    "submission": {
+      "status": "not-audited"
+    }
+  },
+  "verification": {
+    "infrastructure": "manifest/hook/core checks passed; deployment/environment checks pending",
+    "implementation": "not-run-in-this-migration",
+    "analytical": "not-run-in-this-migration",
+    "convergence": "not-run-in-this-migration",
+    "finite_deformation": "not-run-in-this-migration",
+    "physical_validation": "not-run-in-this-migration"
+  },
+  "next_milestone": "Verify the infrastructure environment, companion site and immutable source package; manuscript remains frozen.",
+  "title": "An anisotropic Biot tensor from mineral stress and volumetric work"
+}

@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "ideas": [
+    {
+      "id": "legacy-1",
+      "title": "Serpentinization \u2014 \u2207\u03c4-Driven Fluid Migration",
+      "stage": "captured-unreviewed",
+      "origin": {
+        "notebook": "research_ideas.md",
+        "sha256": "11ad04e6cc176a73be50621e5532429bd7c77ce759ccfa1422e667615e84f705"
+      },
+      "question": "Legacy proposal; recover the original context before prioritization.",
+      "novelty_hypothesis": "not-reviewed",
+      "governing_equations": [],
+      "evidence": [],
+      "risks": [
+        "Legacy notebook predates the active manuscript formulations; claims require fresh review."
+      ],
+      "dependencies": [],
+      "minimum_verification": "not-defined",
+      "audience": "not-selected",
+      "gate": "Explicit promotion decision required; no scientific work authorized outside the four active papers."
+    },
+    {
+      "id": "legacy-2",
+      "title": "Mineral Carbonation and CO\u2082 Storage",
+      "stage": "captured-unreviewed",
+      "origin": {
+        "notebook": "research_ideas.md",
+        "sha256": "11ad04e6cc176a73be50621e5532429bd7c77ce759ccfa1422e667615e84f705"
+      },
+      "question": "Legacy proposal; recover the original context before prioritization.",
+      "novelty_hypothesis": "not-reviewed",
+      "governing_equations": [],
+      "evidence": [],
+      "risks": [
+        "Legacy notebook predates the active manuscript formulations; claims require fresh review."
+      ],
+      "dependencies": [],
+      "minimum_verification": "not-defined",
+      "audience": "not-selected",
+      "gate": "Explicit promotion decision required; no scientific work authorized outside the four active papers."
+    },
+    {
+      "id": "legacy-3",
+      "title": "Cement Hydration \u2014 Water Redistribution",
+      "stage": "captured-unreviewed",
+      "origin": {
+        "notebook": "research_ideas.md",
+        "sha256": "11ad04e6cc176a73be50621e5532429bd7c77ce759ccfa1422e667615e84f705"
+      },
+      "question": "Legacy proposal; recover the original context before prioritization.",
+      "novelty_hypothesis": "not-reviewed",
+      "governing_equations": [],
+      "evidence": [],
+      "risks": [
+        "Legacy notebook predates the active manuscript formulations; claims require fresh review."
+      ],
+      "dependencies": [],
+      "minimum_verification": "not-defined",
+      "audience": "not-selected",
+      "gate": "Explicit promotion decision required; no scientific work authorized outside the four active papers."
+    },
+    {
+      "id": "legacy-4",
+      "title": "Matrix Acidizing \u2014 Wormhole Morphology",
+      "stage": "captured-unreviewed",
+      "origin": {
+        "notebook": "research_ideas.md",
+        "sha256": "11ad04e6cc176a73be50621e5532429bd7c77ce759ccfa1422e667615e84f705"
+      },
+      "question": "Legacy proposal; recover the original context before prioritization.",
+      "novelty_hypothesis": "not-reviewed",
+      "governing_equations": [],
+      "evidence": [],
+      "risks": [
+        "Legacy notebook predates the active manuscript formulations; claims require fresh review."
+      ],
+      "dependencies": [],
+      "minimum_verification": "not-defined",
+      "audience": "not-selected",
+      "gate": "Explicit promotion decision required; no scientific work authorized outside the four active papers."
+    },
+    {
+      "id": "legacy-5",
+      "title": "Battery Electrodes \u2014 Electrolyte Redistribution",
+      "stage": "captured-unreviewed",
+      "origin": {
+        "notebook": "research_ideas.md",
+        "sha256": "11ad04e6cc176a73be50621e5532429bd7c77ce759ccfa1422e667615e84f705"
+      },
+      "question": "Legacy proposal; recover the original context before prioritization.",
+      "novelty_hypothesis": "not-reviewed",
+      "governing_equations": [],
+      "evidence": [],
+      "risks": [
+        "Legacy notebook predates the active manuscript formulations; claims require fresh review."
+      ],
+      "dependencies": [],
+      "minimum_verification": "not-defined",
+      "audience": "not-selected",
+      "gate": "Explicit promotion decision required; no scientific work authorized outside the four active papers."
+    }
+  ]
+}
