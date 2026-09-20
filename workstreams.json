@@ -23,13 +23,19 @@
     },
     {
       "id": "publication",
-      "status": "in_progress",
-      "acceptance": "Verify sites, clean-clone environments, release checksums and honest status."
+      "status": "completed",
+      "acceptance": "Verify sites, clean-clone environments, release checksums and honest status.",
+      "evidence": "verification/infrastructure-final-2026-09-20.json"
     },
     {
       "id": "archive-scope",
       "status": "completed",
       "acceptance": "Keep other papers archival; no scientific edits or wider migrations."
     }
-  ]
+  ],
+  "licensing": {
+    "status": "owner-decision-pending",
+    "blocks_infrastructure_completion": false,
+    "decision": "decisions/0003-infrastructure-completion.md"
+  }
 }

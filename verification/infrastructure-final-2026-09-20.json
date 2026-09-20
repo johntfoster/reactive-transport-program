@@ -1,0 +1,290 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-09-20T02:27:40.001400+00:00",
+  "scope": "Infrastructure completion; not scientific publication or manuscript verification",
+  "candidate_image": {
+    "conclusion": "success",
+    "headSha": "223901199e33e40ae1b82a1ae437f4cf71683ba8",
+    "jobs": [
+      {
+        "completedAt": "2026-09-20T02:16:58Z",
+        "conclusion": "success",
+        "databaseId": 105999162057,
+        "name": "build-test-publish",
+        "startedAt": "2026-09-20T01:21:31Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-09-20T01:21:36Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-09-20T01:21:32Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-20T01:21:39Z",
+            "conclusion": "success",
+            "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "number": 2,
+            "startedAt": "2026-09-20T01:21:36Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-20T01:25:20Z",
+            "conclusion": "success",
+            "name": "Make room for the numerical toolchain",
+            "number": 3,
+            "startedAt": "2026-09-20T01:21:39Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-20T01:25:27Z",
+            "conclusion": "success",
+            "name": "Run docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+            "number": 4,
+            "startedAt": "2026-09-20T01:25:20Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-20T02:04:02Z",
+            "conclusion": "success",
+            "name": "Build the candidate image",
+            "number": 5,
+            "startedAt": "2026-09-20T01:25:27Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-20T02:06:03Z",
+            "conclusion": "success",
+            "name": "Test the image through the Codespaces startup path",
+            "number": 6,
+            "startedAt": "2026-09-20T02:04:02Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-20T02:06:05Z",
+            "conclusion": "success",
+            "name": "Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+            "number": 7,
+            "startedAt": "2026-09-20T02:06:03Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-20T02:06:05Z",
+            "conclusion": "success",
+            "name": "Log in to GHCR",
+            "number": 8,
+            "startedAt": "2026-09-20T02:06:05Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-20T02:16:49Z",
+            "conclusion": "success",
+            "name": "Publish only the tested image",
+            "number": 9,
+            "startedAt": "2026-09-20T02:06:05Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-20T02:16:49Z",
+            "conclusion": "success",
+            "name": "Post Log in to GHCR",
+            "number": 15,
+            "startedAt": "2026-09-20T02:16:49Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-20T02:16:51Z",
+            "conclusion": "success",
+            "name": "Post Build the candidate image",
+            "number": 16,
+            "startedAt": "2026-09-20T02:16:49Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-20T02:16:55Z",
+            "conclusion": "success",
+            "name": "Post Run docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+            "number": 17,
+            "startedAt": "2026-09-20T02:16:51Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-20T02:16:56Z",
+            "conclusion": "success",
+            "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "number": 18,
+            "startedAt": "2026-09-20T02:16:55Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-09-20T02:16:56Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 19,
+            "startedAt": "2026-09-20T02:16:56Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/johntfoster/finite-strain-biot-poromechanics/actions/runs/35481167846/job/105999162057"
+      }
+    ],
+    "status": "completed",
+    "url": "https://github.com/johntfoster/finite-strain-biot-poromechanics/actions/runs/35481167846"
+  },
+  "preservation": {
+    "observed_at": "2026-09-20T02:27:11.880740+00:00",
+    "protected_files": 1134,
+    "protected_hash_mtime_inode_preserved": true,
+    "original_dirty_state_preserved": true,
+    "infrastructure_committed_and_pushed": true,
+    "projects": [
+      {
+        "project": "anisotropic-biot-tensor",
+        "protected_files": 135,
+        "passed": true
+      },
+      {
+        "project": "co2_sequestration_paper",
+        "protected_files": 17,
+        "passed": true
+      },
+      {
+        "project": "crystallization_pressure_paper",
+        "protected_files": 3,
+        "passed": true
+      },
+      {
+        "project": "finite-strain-biot-poromechanics",
+        "protected_files": 65,
+        "passed": true
+      },
+      {
+        "project": "flow_reversal_paper",
+        "protected_files": 15,
+        "passed": true
+      },
+      {
+        "project": "frost_heave_paper",
+        "protected_files": 44,
+        "passed": true
+      },
+      {
+        "project": "multicomponent_reactive_flow",
+        "protected_files": 64,
+        "passed": true
+      },
+      {
+        "project": "multicomponent_reactive_flow.worktrees",
+        "protected_files": 0,
+        "passed": true
+      },
+      {
+        "project": "multicomponent_reactive_flow_charge",
+        "protected_files": 28,
+        "passed": true
+      },
+      {
+        "project": "nonassociated_plasticity",
+        "protected_files": 6,
+        "passed": true
+      },
+      {
+        "project": "nonlinear_biot_extensions",
+        "protected_files": 2,
+        "passed": true
+      },
+      {
+        "project": "reacting_biot_ad_implementation",
+        "protected_files": 148,
+        "passed": true
+      },
+      {
+        "project": "reacting_mixture_theory_paper",
+        "protected_files": 513,
+        "passed": true
+      },
+      {
+        "project": "reactive_biot_coefficient",
+        "protected_files": 19,
+        "passed": true
+      },
+      {
+        "project": "reactive_biot_coefficient_theory",
+        "protected_files": 11,
+        "passed": true
+      },
+      {
+        "project": "reactive_biot_coefficient_v2",
+        "protected_files": 37,
+        "passed": true
+      },
+      {
+        "project": "serpentinization_nature",
+        "protected_files": 6,
+        "passed": true
+      },
+      {
+        "project": "serpentinization_paper",
+        "protected_files": 21,
+        "passed": true
+      }
+    ]
+  },
+  "prior_site_observations": [
+    {
+      "project": "reactive-transport-program",
+      "url": "https://johntfoster.github.io/reactive-transport-program/",
+      "status": 200,
+      "title": "Reactive transport research program",
+      "sha256": "f806de72e4b288cc263c36bf61ecba4a4af4820c9c9c8550ec91beff40dd6263",
+      "observed_at": "2026-09-20T01:23:21.630478+00:00",
+      "four_current_release_and_evidence_links_verified": true
+    },
+    {
+      "project": "nonassociated_plasticity",
+      "url": "https://johntfoster.github.io/nonassociated_plasticity/",
+      "status": 200,
+      "title": "Apparent non-associative plasticity from distinct isochoric and volumetric mechanisms",
+      "sha256": "774855a7cef784a0e548bea14e6e2eeebdf3c28b1441295647a15cd5e0fa9648",
+      "observed_at": "2026-09-20T01:23:21.707336+00:00"
+    },
+    {
+      "project": "Compositional",
+      "url": "https://johntfoster.github.io/Compositional/",
+      "status": 200,
+      "title": "A thermodynamically consistent theory of multicomponent porous media: finite-deformation mechanics, compositional flow, electrostatics, reactions, and phase transformations",
+      "sha256": "6144ae9aa432ec91348a2e0c915371abd68ca982b569b28be1dee279278afdba",
+      "observed_at": "2026-09-20T01:23:21.799475+00:00"
+    },
+    {
+      "project": "anisotropic-biot-tensor",
+      "url": "https://johntfoster.github.io/anisotropic-biot-tensor/",
+      "status": 200,
+      "title": "An anisotropic Biot tensor from mineral stress and volumetric work",
+      "sha256": "a104105f2392fc980aa6e74300d6a9ae92f6736632b1386b3875a4529289f9ca",
+      "observed_at": "2026-09-20T01:23:21.882974+00:00"
+    },
+    {
+      "project": "finite-strain-biot-poromechanics",
+      "url": "https://johntfoster.github.io/finite-strain-biot-poromechanics/",
+      "status": 200,
+      "title": "Nonlinear-Biot AD \u2014 Examples &amp; Reproduction",
+      "sha256": "ab80a4c4af15e19f07fc22baeb8a89924fea7d99fb7c71bdd1060f4dbac117e7",
+      "observed_at": "2026-09-20T01:23:21.966506+00:00"
+    }
+  ],
+  "paper_source_heads": {
+    "finite-strain-biot-poromechanics": "223901199e33e40ae1b82a1ae437f4cf71683ba8",
+    "nonassociated_plasticity": "6c6be2c60d717d53cc6a78b0a716f15c47b88a5a",
+    "multicomponent_reactive_flow": "b3a0721fa9ebb397f3e15d302036de29728d883b",
+    "anisotropic-biot-tensor": "e1b1dc50637b5e2f9cc62cec8787a4fa6b95d0ba"
+  },
+  "licensing": {
+    "status": "undecided where no existing terms",
+    "blocks_infrastructure_deliverable": false,
+    "reason": "The authorized deliverable is license/status infrastructure, now present. No new license grant was authorized or required for the tooling, environment, source-checkpoint and site acceptance gates. Applying Apache-2.0 code / CC-BY documentation-data terms remains an owner-only future decision; manuscript rights are unchanged."
+  },
+  "program_deployment": "This record is validated and deployed by the Program dashboard workflow at its containing commit; verify that workflow and live status.json before closing the durable goal."
+}
