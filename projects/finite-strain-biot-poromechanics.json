@@ -53,8 +53,11 @@
     },
     "citation": "CITATION.cff",
     "license": {
-      "path": "LICENSE",
-      "status": "existing"
+      "path": "LICENSES.md",
+      "status": "licensed",
+      "code": "Apache-2.0",
+      "manuscript": "CC-BY-4.0",
+      "decision_date": "2026-09-20"
     },
     "release": {
       "url": "https://github.com/johntfoster/finite-strain-biot-poromechanics/releases/tag/infrastructure-v0.2.1",

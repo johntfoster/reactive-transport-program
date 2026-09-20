@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "adopted": "2026-09-20",
+  "standing_default": true,
+  "code": "Apache-2.0",
+  "manuscript": "CC-BY-4.0",
+  "third_party": "Preserve upstream terms and notices.",
+  "application": "Four active papers and authorized infrastructure repositories; archived checkouts remain untouched.",
+  "future_work": "Use these defaults without asking again unless the owner explicitly requests an exception.",
+  "manuscript_source_edits": false
+}

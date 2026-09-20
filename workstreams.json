@@ -34,8 +34,10 @@
     }
   ],
   "licensing": {
-    "status": "owner-decision-pending",
-    "blocks_infrastructure_completion": false,
-    "decision": "decisions/0003-infrastructure-completion.md"
+    "status": "owner-approved",
+    "code": "Apache-2.0",
+    "manuscript": "CC-BY-4.0",
+    "standing_default": true,
+    "decision": "decisions/0004-standing-licensing-policy.md"
   }
 }

@@ -16,3 +16,7 @@ Paper manuscripts, scientific implementations, and their authority remain local.
 - Record sanitized decisions, not transcripts or credentials. No personal or
   confidential submission information belongs on the public dashboard.
 - Use six-section process-log commits and exact shared-workflow pins.
+- Apply `licensing-policy.json` when setting up or updating original project
+  licensing: Apache-2.0 for code and CC BY 4.0 for manuscripts. This is the
+  owner's standing choice; do not ask again unless an explicit exception is
+  requested. Preserve third-party licenses and the manuscript-content freeze.
